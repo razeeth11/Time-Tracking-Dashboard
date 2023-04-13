@@ -16,7 +16,7 @@ export function ProfileComponent(){
     <div className="profile-component">
        <div className="profile">
          <div className="profile-img">
-         <img src="./src/images/image-jeremy.png" alt="profile.png" />
+         <img src="https://media.npr.org/assets/img/2023/01/14/gettyimages-697324182-4f2b325001741851e5fecf7b7c749df3ece40e97.jpg" alt="profile.png" />
          </div>
          <div className="profile-name">
            <p>Report for</p>
@@ -53,7 +53,7 @@ export function DataComponentDaily({data}){
         <div className="content">
           <div className="content-one">
             <p>{data.title}</p>
-            <img src="src/images/icon-ellipsis.svg" alt="" />
+            <img src="https://cdn0.iconfinder.com/data/icons/simple-lines-filled/32/37_More_Functions_Menu_Horizontal_Dots_Hidden-512.png" alt="" />
           </div>
           <div className="content-two">
             <h1>{data.timeframes.daily.current}hrs</h1>
