@@ -36,12 +36,12 @@ export function DataComponentList(){
   console.log(data[2])
   return(
     <div className="data-component-list">
-      {data.map((dt,index)=> <DataComponent data={dt} key={index}/> )}
-    </div>
+      {data.map((dt,index)=> <DataComponentDaily data={dt} key={index}/> )}
+    </div>  
   )
 }
 
-export function DataComponent({data}){
+export function DataComponentDaily({data}){
 
   const style = {
     backgroundColor : data.color,
