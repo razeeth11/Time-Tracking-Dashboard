@@ -116,6 +116,52 @@ body{
   gap: 10px;
 }
 
+.profile-track p:hover,.content-one img:hover{
+   color: white;
+   cursor: pointer;
+}
+
+.content:hover{
+  cursor: pointer;
+  background-color: hsl(236, 48%, 29%)
+}
+
+@media screen and (max-width : 830px) {
+  
+    .App{
+      display: grid;
+      justify-items: center;
+    }
+
+    .profile-component{
+      display: flex;
+      flex-direction: column;
+      background-color: hsl(235, 46%, 20%);
+      border-radius: 10px;
+      min-width: 100%;
+    }
+
+    .profile{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      min-height: 50px;
+    }
+
+    .profile p{
+      margin: 0;
+    }
+  
+    .profile-track{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+    }
+
+}
+
 @media screen and (max-width : 620px) {
    
   .App{
